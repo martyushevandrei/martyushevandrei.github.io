@@ -1,0 +1,245 @@
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.article_header img{
+	width: 100%;
+}
+.conteiner{
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.conteiner .cols{
+	float: left;
+	margin: 0 0 1em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.conteiner .cols.col-6{ 
+	width: 47%; 
+}
+.conteiner .cols.col-12{ 
+	width: 100%; 
+}
+.conteiner:before,
+.conteiner:after,
+.row:after,
+.row:before,
+.clear:before,
+.clear:after{
+	content: " ";
+	display: table;
+}
+.row:after,
+.conteiner:after,
+.clear:after{
+	clear: both;
+}
+.about-project .conteiner{
+	background: #f6f6f6;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.about-project .conteiner h5{
+	font-size: 16px;
+}
+.about-project .conteiner p{
+	font-size: 14px;
+}
+.about-project .conteiner img{
+	padding-top: 25px;
+	max-width: 70%;
+}
+.our-work .conteiner{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.our-work b{
+	color: #c41e24;
+}
+.our-work .conteiner h5{
+	font-size: 16px;
+}
+.our-work .conteiner p,
+.our-work .conteiner h6{
+	font-size: 14px;
+}
+.block-foto-bgggg img{
+	max-width: 100%;
+	display: block;
+}
+.creat-blog{
+	background: #ffffcc;
+}
+.creat-blog .conteiner img{
+	max-width: 4%;
+	margin-right: 25px;
+	margin-bottom: -10px;
+	padding-left: 25px;
+}
+.creat-blog .conteiner{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.creat-blog .conteiner p{
+	width: 90%;
+	display: inline-block;
+}
+.good-rezults-gggg{
+	padding-top: 25px;
+}
+.good-rezults-gggg .conteiner h5{
+	font-size: 16px;
+}
+.good-rezults-gggg .conteiner p{
+	font-size: 14px;
+}
+.good-rezults-gggg img{
+	max-width: 8%;
+	margin-right: 15px;
+}
+.good-rezults-grific img{
+	max-width: 100%;
+}
+.good-rezults-gggg p{
+	display: inline-block;
+	width: 85%;
+}
+.good-rezults-gggg .row{
+	display: table;
+}
+.good-rezults-gggg .cols.col-6 {
+    display: table-cell;
+}
+.good-rezults-gggg .conteiner p{
+	vertical-align: top;
+}
+.good-rezults-grific h5{
+	text-align: center;
+}
+.good-rezults-grific .row{
+	border-bottom: 1px dotted #CCCCCC;
+}
+.happy-end-ggggg{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.happy-end-ggggg b{
+	color: #c41e24;
+}
+.happy-end-ggggg img{
+	max-width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+.happy-end-ggggg p{
+	font-size: 14px;
+}
+.happy-end-ggggg h5{
+	font-size: 16px;
+}
+.opinion-one{
+	padding-top: 25px;
+}
+.opinion-one span{
+	padding-left: 18%;
+}
+.opinion-one h5{
+	background: #DDDDDD;
+	font-size: 16px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 18%;
+	margin-bottom: -18px;
+	border-bottom: 2px dotted #fff;
+	
+}
+.opinion-one img{
+	max-width: 10%;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	margin-left: 5%;
+	margin-top: -280px;
+}
+.opinion-one .cols.col-12{
+	padding: 0;
+}
+.opinion-one .row{
+	margin-top: -20px;
+	background: #f6f6f6;
+	padding: 25px 40px 25px 25px;
+	margin-bottom: 70px;
+}
+.opinion-one p{
+	font-size: 14px;
+}
+.opinion-one u{
+	color: #c41e24;
+}
+.opinion-two{
+	padding-top: 25px;
+}
+.opinion-two span{
+	padding-left: 18%;
+}
+.opinion-two h5{
+	background: #DDDDDD;
+	font-size: 16px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 18%;
+	margin-bottom: -14px;
+	border-bottom: 2px dotted #fff;
+}
+.opinion-two img{
+	max-width: 10%;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	margin-left: 5%;
+	margin-top: -280px;
+}
+.opinion-two .cols.col-12{
+	padding: 0;
+}
+.opinion-two .row{
+	margin-top: -20px;
+	background: #f6f6f6;
+	padding: 25px 40px 25px 25px;
+	margin-bottom: 40px;
+}
+.opinion-two p{
+	font-size: 14px;
+}
+.opinion-two u{
+	color: #c41e24;
+}
+.creat-blog p{
+	vertical-align: middle;
+}
+@media screen and (max-width: 1016px) {
+	.creat-blog .conteiner p{
+		width: 80%;
+	}
+}
+@media screen and (max-width: 900px) {
+	.happy-end-ggggg br{
+		display: none;
+	}
+}
+@media screen and (max-width: 757px) {
+	.conteiner .cols.col-6{
+		width: 46%;
+	}
+}
+@media screen and (max-width: 672px) {
+	.good-rezults-gggg p{
+		width: 75%;
+	}
+}
+@media screen and (max-width: 572px) {
+	.conteiner .cols.col-6{
+		width: 45%;
+	}
+}
